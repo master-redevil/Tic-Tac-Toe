@@ -1,0 +1,40 @@
+#heading {
+    text-align: center;
+}
+
+#main-div {
+    display: flex;
+    margin: 30px;
+    margin-left: 460px;
+    background-color: gray;
+    height: 330px;
+    width: 330px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#column-1 div {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+#column-2 div {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+#column-3 div {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
