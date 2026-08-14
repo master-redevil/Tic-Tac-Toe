@@ -1,40 +1,52 @@
+*{
+    font-family: "Press Start 2P", system-ui;
+}
+
 #heading {
     text-align: center;
 }
 
 #main-div {
     display: flex;
-    margin: 30px;
-    margin-left: 460px;
-    background-color: gray;
-    height: 330px;
-    width: 330px;
-    border-radius: 20px;
-    padding: 10px;
+    justify-content: center;
 }
 
-#column-1 div {
-    margin-right: 10px;
-    margin-bottom: 10px;
-    height: 100px;
-    width: 100px;
-    background-color: aliceblue;
-    border-radius: 10px;
+#boxes {
+    display: flex;
 }
 
-#column-2 div {
-    margin-right: 10px;
-    margin-bottom: 10px;
-    height: 100px;
+.column div {
+    display: flex;
+    box-shadow: inset 2px 2px 15px rgba(0, 0, 255, 0.233);
     width: 100px;
-    background-color: aliceblue;
-    border-radius: 10px;
+    height: 100px;
+    margin: 5px;
+    margin-left: 1.5px;
+    justify-content: center;
+    font-size: 70px;
+    align-items: center;    
 }
-#column-3 div {
-    margin-right: 10px;
-    margin-bottom: 10px;
-    height: 100px;
-    width: 100px;
-    background-color: aliceblue;
+
+.column div:hover {
+    box-shadow: inset 2px 2px 20px rgba(0, 0, 255, 0.233);
+    background-color: rgba(240, 248, 255, 0.459);
+}
+
+#game-status {
+    text-align: center;
+}
+
+#clear-button {
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 260px;
+    font-size: 30px;
     border-radius: 10px;
+    background-color: rgba(21, 167, 21, 0.808);
+    border: 0px;
+}
+
+#clear-button:hover {
+    background-color: rgb(21, 167, 21);
 }
