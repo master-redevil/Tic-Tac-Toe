@@ -11,27 +11,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 id="heading">Tic Tac Toe Game</h1>
     <div id="main-div">
         <div id="boxes">
-            <div class="column">
-                <div id="1"></div>
-                <div id="2"></div>
-                <div id="3"></div>
+            <h1 id="heading">Tic Tac Toe Game</h1>
+            <div id="grid">  
+                <div class="column">
+                    <div id="box1"></div>
+                    <div id="box2"></div>
+                    <div id="box3"></div>
+                </div>
+                <div class="column">
+                    <div id="box4"></div>
+                    <div id="box5"></div>
+                    <div id="box6"></div>
+                </div>
+                <div class="column">
+                    <div id="box7"></div>
+                    <div id="box8"></div>
+                    <div id="box9"></div>
+                </div>
             </div>
-            <div class="column">
-                <div id="4"></div>
-                <div id="5"></div>
-                <div id="6"></div>
-            </div>
-            <div class="column">
-                <div id="7"></div>
-                <div id="8"></div>
-                <div id="9"></div>
+            <h1 id="game-status">Game Start!</h1>
+            <button id="clear-button">New Game</button>
+        </div>
+        <div id="score-board">
+            <h1>Score</h1>
+                <h1 id="x-score">X : 0</h1>
+                <h1 id="o-score">O : 0</h1>
             </div>
         </div>
     </div>
-    <h1 id="game-status">Game Start!</h1>
-    <button id="clear-button">New Game</button>
+    <div id="footer">
+        <p>Made with ❤️ by <a href="https://github.com/master-redevil" target="_blank">M Arif Manzoor</a></p>
+    </div>
 </body>
 </html>
